@@ -18,6 +18,24 @@ namespace Examen
         /// </summary>
         public int N3;
 
+        public Asignatura(int n1, int n2, int n3, string? nombreAsignatura, string? horario, string? nombreDocente, string? nombreAsignatura1)
+        {
+            N1 = n1;
+            N2 = n2;
+            N3 = n3;
+            NombreAsignatura = nombreAsignatura;
+            Horario = horario;
+            NombreDocente = nombreDocente;
+        }
+
+        public Asignatura(int n1, int n2, int n3, string? nombreAsignatura, string? horario, string? nombreDocente, string? nombreAsignatura1, string? horario1, string? nombreDocente1) : this(n1, n2, n3, nombreAsignatura, horario, nombreDocente, nombreAsignatura1)
+        {
+        }
+
+        public Asignatura()
+        {
+        }
+
         // <summary>
         /// Nombre del la asiganatura 
         /// </summary>
@@ -39,7 +57,7 @@ namespace Examen
         /// <returns>la nota final</returns>
         public double CalcularNotaFinal()
         {
-            return N1 + N2 + N3 / 3;
+            return (N1 + N2 + N3) / 3;
         }
 
         // <summary>
@@ -48,7 +66,7 @@ namespace Examen
         /// <returns>la nota final</returns>
         public double CalcularNotaFinal(double N1, double N2, double N3)
         {
-            return N1 + N2 + N3 / 3;
+            return (N1 + N2 + N3) / 3;
         }
 
         // <summary>
@@ -85,6 +103,8 @@ namespace Examen
         /// <returns>imprime de resultado de operaciones</returns>
         public void Imprimir()
         {
+            double notaFinal = CalcularNotaFinal();
+            string mensaje = MensajeNotaFinal(notaFinal);
             Console.WriteLine("**************************************************");
             Console.WriteLine($"Nombre del estudiante : {NombreAlumno}");
             Console.WriteLine($"Numero de cuenta : {NumeroCuenta}");
@@ -92,8 +112,8 @@ namespace Examen
             Console.WriteLine($"Nombre de la clase : {NombreAsignatura}");
             Console.WriteLine($"Horario : {Horario}");
             Console.WriteLine($"Nombre del Docente : {NombreDocente}");
-            Console.WriteLine($"Nota final : {MensajeNotaFinal}");
-            Console.WriteLine($"Nota final :  {MensajeNotaFinal}");
+            Console.WriteLine($"Nota final : {mensaje}");
+            Console.WriteLine($"Nota final :  {mensaje}");
             Console.WriteLine("**************************************************");
         }
     }
