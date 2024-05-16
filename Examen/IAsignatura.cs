@@ -14,7 +14,7 @@ namespace Examen
         /// sumará las 3 notas parciales a partir de los parámetros
         /// </summary>
         /// <returns>la nota final</returns>
-        public double CalcularNotaFinal(double nota1, double nota2, double nota3);
+        public double CalcularNotaFinal(double N1, double N2, double N3);
 
         // <summary>
         /// mostrará un mensaje basado en de la nota final
