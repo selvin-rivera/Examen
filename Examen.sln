@@ -5,10 +5,6 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen", "Examen\Examen.csproj", "{220D0D07-9C6F-435C-8B9D-C3E8F0E93C22}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioInterfaces", "..\..\EjercicioInterfaces\EjercicioInterfaces\EjercicioInterfaces\EjercicioInterfaces\EjercicioInterfaces.csproj", "{140B29E5-6B95-4921-98F4-B770A4B6B9DB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaDiccionarioExcepcionQ22024", "..\..\Repository\ListaDiccionarioExcepcionQ22024\ListaDiccionarioExcepcionQ22024\ListaDiccionarioExcepcionQ22024.csproj", "{298A19EC-BB5E-4EA3-A967-707486BAA393}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{220D0D07-9C6F-435C-8B9D-C3E8F0E93C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{220D0D07-9C6F-435C-8B9D-C3E8F0E93C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{220D0D07-9C6F-435C-8B9D-C3E8F0E93C22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{140B29E5-6B95-4921-98F4-B770A4B6B9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{140B29E5-6B95-4921-98F4-B770A4B6B9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{140B29E5-6B95-4921-98F4-B770A4B6B9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{140B29E5-6B95-4921-98F4-B770A4B6B9DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{298A19EC-BB5E-4EA3-A967-707486BAA393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{298A19EC-BB5E-4EA3-A967-707486BAA393}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{298A19EC-BB5E-4EA3-A967-707486BAA393}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{298A19EC-BB5E-4EA3-A967-707486BAA393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

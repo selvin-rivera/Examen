@@ -57,7 +57,7 @@ namespace Examen
         /// <returns>la nota final</returns>
         public double CalcularNotaFinal()
         {
-            return (N1 + N2 + N3) / 3;
+            return N1 + N2 + N3;
         }
 
         // <summary>
@@ -66,7 +66,7 @@ namespace Examen
         /// <returns>la nota final</returns>
         public double CalcularNotaFinal(double N1, double N2, double N3)
         {
-            return (N1 + N2 + N3) / 3;
+            return N1 + N2 + N3;
         }
 
         // <summary>
